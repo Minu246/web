@@ -1,0 +1,115 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(1.jfif);
+    
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(51, 185, 154);
+    font-size: 13px;
+    margin: 0%;
+}
+
+input,select,button{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(11, 57, 150);
+    font-size: 14px;
+    
+}
+select{
+    width: 100px;
+}
+h3,h4{
+    margin: 0%;
+}
+
+img{
+     max-width: 100%;
+     max-height: 150%;
+     
+}
+:focus{
+    outline: none;
+
+}
+.wrapper{
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.inner{
+    padding: 10px;
+    background: rgb(249, 250, 251);
+    
+    max-width: 850px;
+    margin: auto;
+    display: flex;
+}
+
+.inner .image_holder{
+    width: 50%;
+    height: 50%;
+}
+
+.inner form{
+    width: 50%;
+    padding-top: 36px;
+    padding-left: 45px;
+    padding-right: 45px;
+
+}
+
+.inner h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.form_group{
+    display: flex;
+}
+.form_group input{
+    width: 50%;
+
+}
+.form_group input:first-child{
+    margin-right: 45px;
+}
+.form_wrapper{
+    position: relative;
+
+}
+.form_wrapper input{
+    width: 100%;
+}
+.form_control{
+    border: 1px solid black;
+    border: none;
+    border-bottom: 1px solid black;
+    display: block;
+    width: 325px;
+    height: 45px;
+    padding-left:0;
+    margin-bottom: 40px;
+    text-align: left;
+
+}
+select{
+    cursor: pointer;
+    padding-left: 45px;
+    width: 200%;
+
+}
+select option[value=""] [disabled]{
+    display: none;
+    width: 100%;
+}
+
